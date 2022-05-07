@@ -1,0 +1,44 @@
+.acc{
+    width: 18.75em;
+  color: black;
+  text-align: left;
+  
+}
+.accordion{
+    padding-left: 0.213em;
+    
+
+}
+/*modo vertical*/
+@media screen and (min-width: 820px){
+ .acc{
+   font-size: 25px;
+   width: 16.55em;
+ }
+.accordion{
+  padding-left: 120px;
+  align-items: center;
+}
+}
+
+/*modo horizontal*/
+@media screen and (min-width: 1180px){
+  .acc{
+    font-size: 18px;
+    width: 15.95em;
+  }
+ .accordion{
+ padding-left: -0px;
+   
+ }
+ }
+/*desktop*/
+@media screen and (min-width: 1200px){
+  
+
+  .accordion{
+    padding-left: 40px;
+  }
+
+ 
+}

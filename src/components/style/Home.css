@@ -1,0 +1,99 @@
+.box{
+    background-color: #091034;
+color: wheat;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+}
+h3, h4{
+   text-align: center;
+}
+img{
+    max-width: 18.75em;
+    max-height: 18.75em;
+  display: block;
+  margin: auto;
+  margin-top: 2.813em;
+    
+}
+.View{
+    color: wheat;
+    text-align: center;
+    margin-top: 2.5em;
+    padding-bottom: 4.75em;
+}
+h3:hover{
+    color: tomato;
+}
+.Hi{
+    padding-top:2.188em;
+}
+@media (min-height: 800px) {
+    .Hi{
+        padding-top:6.788em;
+    
+    }
+    .View{
+        padding-bottom: 10.95em;
+    }
+  }
+
+  /*tablets*/
+  /*modo vertical*/
+  @media (min-height: 900px) {
+    .Hi{
+        font-size: 35px;
+        padding-top:7.388em;
+    
+    }
+    .Im{
+        font-size: 30px;
+    }
+    .View{
+        font-size: 25px;
+        padding-bottom: 22.95em;
+    }
+    .image{
+        max-width: 22.75em;
+    max-height: 22.75em;
+    }
+  }
+
+  /*modo horizontal*/
+  @media (min-width: 1000px) {
+    .Hi{
+        font-size: 35px;
+        padding-top:2.388em;
+    
+    }
+    .Im{
+        font-size: 30px;
+    }
+    .View{
+        font-size: 25px;
+       
+    }
+    img{
+        max-width: 22.75em;
+    max-height: 22.75em;
+    }
+  }
+/*desktop*/
+@media screen and (min-width: 1200px){
+  
+.Hi{
+font-size: 25px;
+padding-top:1.388em;
+}
+   .Im{
+    font-size: 25px;
+   }
+    .View{
+        font-size: 18px;
+        padding-top: 8px;
+    }
+  
+   
+  }

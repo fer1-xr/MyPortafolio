@@ -1,0 +1,96 @@
+.main{
+    background-color: #091034;
+color: wheat;
+    min-height: 95vh;
+   
+}
+.title{
+    text-align: center;
+    padding-top: 2.813em;
+    padding-bottom: 0.313em;
+font-size: 20px;
+}
+img{
+    padding-bottom: 20px;
+}
+
+
+.project-title{
+  text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+h5{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (min-width: 400px){
+    .title{
+        font-size:  1.33em;
+    }
+   .project-title{
+    font-size:  1.13em;
+    text-align: center;
+   
+margin-right: -1.50em;
+   }
+
+   .h5{
+    padding-bottom: 0.800em;
+}
+
+}
+/*modo vertical*/
+@media screen and (min-width: 820px){
+    .title{
+        padding-top: 70px;
+        font-size:  1.83em;
+    }
+   .images{
+    max-width: 22.75em;
+    max-height: 28.75em;
+    }
+   
+    
+}
+/*modo horizontal*/
+
+@media screen and (min-width: 1180px){
+    .title{
+        font-size:  1.23em;
+       
+    }
+   .images{
+      
+    max-width: 17.85em;
+    max-height: 20.75em;
+    padding: 15px;
+    }
+    
+    .h5{
+        padding-top: 140px;
+        text-align: center;
+        padding-bottom: 175px;
+    }
+}
+/*desktop*/
+@media screen and (min-width: 1200px){
+.title{
+    font-size: 1.10em;
+}
+.h5{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 175px;
+  
+}
+
+
+
+
+
+}

@@ -1,0 +1,60 @@
+.main
+{min-height: 100vh;
+    background-color: #091034;
+  
+}
+.paragraph{
+    
+    
+    text-align: left;
+    padding-bottom: 245px;
+}
+h3{
+    padding-top: 75px;
+}
+@media screen and (min-height: 800px){
+    h3{
+        padding-top: 6.563em;
+    }
+   .paragraph{
+    
+    padding-bottom: 15.175em;
+   }
+}
+/*tablet*/
+@media screen and (min-width: 1180px){
+    .paragraph{
+        padding-right: 65px;
+        padding-left: 65px;
+        padding-bottom: 27.175em;
+    }
+    .firsta{
+        padding-bottom: 2.175em ;
+    }
+}
+/*modo vertical*/
+@media screen and (min-height: 1180px){
+    h3{
+        font-size: 32px;
+    }
+    .paragraph{
+        font-size: 28px;
+        padding-right: 65px;
+        padding-left: 65px;
+        padding-bottom: 18.775em;
+    }
+    .firsta{
+        padding-bottom: 1.175em ;
+    }
+}
+@media screen and (min-width: 1200px){
+    .paragraph{
+        padding-right: 65px;
+        padding-left: 65px;
+        padding-bottom: 24.175em;
+    }
+    .firsta{
+        padding-bottom: 4.175em ;
+    }
+}
+/*desktop*/
