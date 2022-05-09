@@ -42,7 +42,7 @@ function Work() {
     </Col>
   </Row>
 
-  <h5 className='h5'><a href='http://localhost:3000/About'>Then, who are you?</a></h5>
+  <h5 className='h5'><a href='https://fernandocano.netlify.app/About'>Then, who are you?</a></h5>
 </Container>
 
 <Footer/>
