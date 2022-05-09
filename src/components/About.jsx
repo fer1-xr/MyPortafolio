@@ -11,7 +11,7 @@ function About() {
     especially with tecnologys. I hava otuched computer since I have memory, I can do it for free (joke)</p>
     <p > I master and work with advanced Html Css, Javascript, React Js, Bootstrap, Git and Netfily.
     Also I'm have strong english comunication, I have an excellent communication in English (b2) I learned it watching the simpsons, so the jokes will not be missing.</p>
-   <p>So, if you're interesting, <a href='http://localhost:3000/Contact'>Contact me</a></p>
+   <p>So, if you're interesting, <a href='https://fernandocano.netlify.app/Contact'>Contact me</a></p>
   </div>
  
 </div>
