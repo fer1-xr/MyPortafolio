@@ -16,7 +16,7 @@ function Contact() {
   
   </div>
   <a href="download/Fernando Cano-CV (2)" download="Fernando Cano-CV (2).word" className='link'>Download CV</a>
- <Footer/>
+
     </main>
  
   )

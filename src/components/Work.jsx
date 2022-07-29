@@ -3,7 +3,7 @@ import React from 'react'
 import { Container, Row, Col} from 'react-bootstrap'
 import "./style/Work.css"
 import FORM from "./img/FORM.png"
-import COUNTDOWN from "./img/COUNTDOWN.png"
+import project2 from "./img/project2.PNG"
 import multipage from "./img/multipage.png"
 import Firstproject from './Firstproject';
 import Secondproject from './Secondproject';
@@ -29,8 +29,8 @@ function Work() {
     </Col>
 {/* Second column */}
     <Col lg={4} className='project-title'>
-      <h6 className='title'>Project2</h6>
-    <img src={COUNTDOWN} alt="" className='images'/>
+      <h6 className='title'>Advice Generator</h6>
+    <img src={project2} alt="" className='images'/>
     <Secondproject  />
     </Col>
 
@@ -42,10 +42,10 @@ function Work() {
     </Col>
   </Row>
 
-  <h5 className='h5'><a href='https://fernandocano.netlify.app/About'>Then, who are you?</a></h5>
+  
 </Container>
 
-<Footer/>
+
 
   </div>
   )

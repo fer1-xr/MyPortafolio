@@ -9,16 +9,14 @@ function Firstproject() {
   <Accordion.Item eventKey="0" className='acc'>
     <Accordion.Header className="first"  >About this project</Accordion.Header>
     <Accordion.Body className="body" >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    <h6>A simple Form that has two fields and a button. Built with HTML5, CSS and Javascript</h6>
     </Accordion.Body>
+    
   </Accordion.Item>
- 
+  <div className="link1">
+  <a href="https://incomparable-snickerdoodle-eea817.netlify.app" > Live </a>
+     <a href="https://github.com/fer1-xr/Form-Validation"> Code</a>
+  </div>
 </Accordion>
 </Container>
  

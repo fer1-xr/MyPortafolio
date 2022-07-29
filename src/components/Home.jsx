@@ -4,6 +4,9 @@ import "./style/Home.css"
 import {  Link } from "react-router-dom";
 import gamer from './img/gamer.png';
 import Footer from './Footer';
+import Work from './Work';
+import About from './About';
+import Contact from './Contact';
 function Home() {
   return (
     <div className="box">
@@ -15,9 +18,11 @@ function Home() {
             <img src={gamer} alt="" className='image'/>
             <Link to="/Work" className='View' >View my projects</Link>
           </div>
-     
-       
-          <Footer/>
+     <About/>
+     <Work/>
+     <Contact/>
+     <Footer/>
+        
    </div>
   
   )

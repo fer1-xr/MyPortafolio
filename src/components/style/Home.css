@@ -27,8 +27,9 @@ img{
 h3:hover{
     color: tomato;
 }
-.Hi{
+.Hi, Im{
     padding-top:4.288em;
+    font-weight: bold;
 }
 @media (min-height: 800px) {
     .Hi{

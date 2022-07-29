@@ -7,16 +7,14 @@ function Secondproject() {
     <Accordion.Item eventKey="0" className='acc'>
       <Accordion.Header  >About this project</Accordion.Header>
       <Accordion.Body className="body" >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+     <h6> An app that returns a random tip on every click. Built with Reactjs and Bootstrap</h6>
+     
       </Accordion.Body>
     </Accordion.Item>
-   
+    <div className="link1">
+   <a href="https://storied-cuchufli-2150fc.netlify.app/"> Live </a>
+      <a href="https://github.com/fer1-xr/advice-generator"> Code</a>
+  </div>
   </Accordion>
   </Container>
   )

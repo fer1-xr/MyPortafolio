@@ -7,16 +7,16 @@ function Thirdproject() {
     <Accordion.Item eventKey="0" className='acc'>
       <Accordion.Header  >About this project</Accordion.Header>
       <Accordion.Body className="body" >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum.
+       <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor 
+       
+       </h6>
       </Accordion.Body>
     </Accordion.Item>
-   
+    <div className="link1">
+  <a href="" > Live </a>
+     <a href=""> Code</a>
+  </div>
   </Accordion>
   </Container>
   )
