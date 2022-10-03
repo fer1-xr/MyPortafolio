@@ -7,7 +7,8 @@ function Secondproject() {
     <Accordion.Item eventKey="0" className='acc'>
       <Accordion.Header  >About this project</Accordion.Header>
       <Accordion.Body className="body" >
-     <h6> An app that returns a random tip on every click. Built with Reactjs and Bootstrap</h6>
+     <h6> An API that returns a random tip on every click. 
+     Built with Reactjs and Bootstrap </h6>
      
       </Accordion.Body>
     </Accordion.Item>

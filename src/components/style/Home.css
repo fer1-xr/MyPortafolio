@@ -1,8 +1,10 @@
+
 .box{
     background-color: #091034;
 color: wheat;
     min-height: 100vh;
     box-sizing: border-box;
+   overflow: hidden; 
 }
 .container{
     display: grid;

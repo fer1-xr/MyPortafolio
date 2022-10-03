@@ -1,63 +1,73 @@
-.main
-{min-height: 100vh;
+main{
+    
     background-color: #091034;
-  
 }
-.firsta{
+.id{
+    padding-top: 65px;
+}
+.grid {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 30% 10%;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      "."
+      ".";
+      
+ 
+  }
+  .firsta{
     font-weight: bold;
-}
-.paragraph{
-    
-    
-    text-align: left;
-    padding-bottom: 245px;
-}
-h3{
+    color: wheat;
+  }
+  p{
+    color: white;
+  }
+  h3{
     padding-top: 75px;
 }
-@media screen and (min-height: 800px){
-    h3{
-        padding-top: 6.563em;
-    }
-   .paragraph{
-    
-    padding-bottom: 15.175em;
-   }
-}
-/*tablet*/
-@media screen and (min-width: 1180px){
-    .paragraph{
-        padding-right: 65px;
-        padding-left: 65px;
-        padding-bottom: 27.175em;
-    }
-    .firsta{
-        padding-bottom: 2.175em ;
-    }
-}
-/*modo vertical*/
-@media screen and (min-height: 1180px){
-    h3{
-        font-size: 32px;
-    }
-    .paragraph{
-        font-size: 28px;
-        padding-right: 65px;
-        padding-left: 65px;
-        padding-bottom: 18.775em;
-    }
-    .firsta{
-        padding-bottom: 1.175em ;
-    }
+.div {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . .";
+      padding-bottom: 95px;
+      
 }
 @media screen and (min-width: 1200px){
-    .paragraph{
-        padding-right: 65px;
-        padding-left: 65px;
-        padding-bottom: 24.175em;
-    }
-    .firsta{
-        padding-bottom: 4.175em ;
-    }
+    .grid {  display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 60% 30% 10%;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "."
+          "."
+          ".";
+          
+          padding-top: 50px;
+      }
+      .firsta{
+        padding-top: 130px;
+      }
+      .id{
+       padding-top: 240px;
+      }
+      .div {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . .";
+      padding-top: 95px;
+      
 }
-/*desktop*/
+}
