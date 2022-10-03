@@ -1,9 +1,9 @@
 import React from "react";
 import "./style/Contact.css";
-import mail from "./img/mail.png";
+
 import linkedin from "./img/linkedin.png";
 import github from "./img/github.png";
-import Footer from "./Footer";
+
 
 import emailjs from '@emailjs/browser';
 
