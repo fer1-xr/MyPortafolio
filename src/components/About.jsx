@@ -12,20 +12,21 @@ function About() {
   return (
     <main>
        <Container>
-<div class="grid">
+<div className="grid">
   <div className='tx  animate__animated animate__lightSpeedInLeft'>
         <h3 className="  firsta ">About Me</h3>
        
           
           
                 <p className=' '>Hi! My name is Fernando Cano, I'm from Paraguay. I'm 22 years old and I love creating things, 
-             especially with tecnologys. I hava otuched computer since I have memory, I can do it for free (joke)</p>
-             <p className=' '> I master and work with advanced Html Css, Javascript, React Js, Bootstrap, Git and Netfily.
-            Also I'm have strong english comunication, I have an excellent communication in English (b2) I learned it watching the simpsons, so the jokes will not be missing.</p>
+             especially with tecnologys. I have touched computer since I have memory, I can do it for free (joke)</p>
+             <p className=' '> I work with  HTML5, CSS, Javascript, ReactJs, Bootstrap, Git and Netfily.
+            Also I'm english speaker. 
+</p>
 
-             <p className=''>So, if you're interesting, <a href='https://fernandocano.netlify.app/Contact'>Contact me</a></p>
+             <p className=''>Got any questions? <a href='https://fernandocano.netlify.app/Contact'>Contact me</a></p>
           
-          
+             
   </div>
   <div className="div   animate__animated animate__lightSpeedInLeft ">
   <img src={html} alt="" className='image animate__animated  animate__fadeIn'/>

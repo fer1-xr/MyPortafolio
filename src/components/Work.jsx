@@ -37,7 +37,7 @@ function Work() {
 
 {/* Three column */}
     <Col lg={4} className='project-title' >
-    <h6 className='tixt'>BookStore Web</h6>
+    <h6 className='txt'>BookStore Web</h6>
     <img src={project} alt="" className='images'/>
    < Thirdproject />
     </Col>

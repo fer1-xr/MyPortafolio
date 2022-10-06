@@ -1,20 +1,39 @@
 .b{
   background-color: #091034;
-  color: white;
-  box-sizing: border-box;
+  height: 100vh;
+}
+.main{
+  background-color: #091034;
 }
 .container{
   background-color: #091034;
 }
-.containerr {  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows:50% 10% 40%;
+.caja{
+  width:100%;
+  margin:0 auto;
+   margin-top:155px;
+   
+}
+#nombre{
+  
+  margin: 0 0 15px;
+}
+
+ #email{
+ 
+  margin: 0 0 15px;
+ }
+
+
+.b{  display: grid;
+  grid-template-columns: 1fr ;
+padding-bottom: 150px;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "."
     ".";
-   
+    
 }
 
 .id{
@@ -32,17 +51,26 @@
 }
 .social{
    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr ;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
       ". . .";
   
-  
-    padding-top: 115px;
-  
+      padding-left: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+      padding-right:85px;
+}  .paragraph{
+  color: white;
+  grid-column-end: span 3;
+  padding-left: 35px;
+  padding-top: 30px;
+  color: wheat;
+  font-weight: bold;
 }
+
 .tt{
   padding-top: 100px;
 padding-left: 40px;
@@ -51,3 +79,55 @@ padding-right: 25px;
 .img{
   padding-left: 80px;
 }
+/*desktop*/
+@media screen and (min-width: 1000px){
+  .b {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;                                     
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      ".";
+      height: 100vh;
+      
+  }
+  .paragraph{
+    color: white;
+    grid-column-end: span 3;
+    color: wheat;
+    font-weight: bold;
+  }
+  .social{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."
+      ". ."; 
+      padding-top: 170px;
+      padding-right: 85px;
+ }
+
+.caja{
+  width: 88%;
+ 
+
+}
+    #nombre{
+      width: 200%;
+      margin: 0 0 15px;
+    }
+    .caja1{
+      padding-left: 45px;
+    }
+     #email{
+      width: 200%;
+      margin: 0 0 15px;
+     }
+     #mensaje{
+      width:88%;
+      margin: 0 0 15px;
+     }
+    }
